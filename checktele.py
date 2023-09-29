@@ -178,20 +178,20 @@ async def hunterusername(event):
                 )
                 await event.client.send_file(
                     event.chat_id,
-                    "https://t.me/xx3bD/203",
+                    "https://t.me/y_r_f/9",
                     caption="🐊 YaBh the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE YaBh ❲ @xx_YaBh ❳ ".format(
                         username, trys, choice
                     ),
                 )
                 await event.client.send_file(
                     ch,
-                    "https://t.me/xx3bD/203",
+                    "https://t.me/y_r_f/9",
                     caption="🐊 YaBh the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE YaBh ❲ @xx_YaBh ❳ ".format(
                         username, trys, choice
                     ),
                 )
                 await event.client.send_message(
-                    "@mmaahg", f"- Done : @{username} !\n- By : @mmaahg - @mmaahg !"
+                    "@xx_YaBh", f"- Done : @{username} !\n- By : @xx_YaBh !"
                 )
                 sedmod = False
                 break
@@ -263,20 +263,20 @@ async def _(event):
                 )
                 await event.client.send_file(
                     ch,
-                     "https://t.me/xx3bD/203",
+                     "https://t.me/y_r_f/9",
                     caption="🐊 YaBh the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE YaBh ❲ @xx_YaBh ❳ ".format(
                         username, trys2
                     ),
                 )
                 await event.client.send_file(
                     event.chat_id,
-                    "https://t.me/xx3bD/203",
+                    "https://t.me/y_r_f/9",
                     caption="🐊 YaBh the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE YaBh ❲ @xx_YaBh ❳ ".format(
                         username, trys2
                     ),
                 )
                 await event.client.send_message(
-                    "@mmaahg",
+                    "@xx_YaBh",
                     f"- Done : @{username} !\n- By : @xx_YaBh !\n- Hunting Log {trys2}",
                 )
                 swapmod = False
