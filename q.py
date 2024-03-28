@@ -21,13 +21,14 @@ def send_inline_keyboard(message):
 def send_audio(message):
     global num
     
-    sleep(5)
+    sleep(1)
     aa = str(''.join((random.choice(number) for i in range(2))))
     a = str(''.join((random.choice(number) for i in range(1))))
     url = f'http://quran.ksu.edu.sa/ayat/mp3/Ali_Jaber_64kbps/0{aa}00{a}.mp3' 
     response = requests.get(url, verify=False) 
     if response.status_code == 200: 
-       bot.send_audio(message.chat.id,response.content,caption="...",parse_mode="html")
+       bot.send_audio(message.chat.id,response.content,caption="for me and my parents
+me : @usaByte",parse_mode="html")
        num += 1
        print('Done Send file') 
     else: 
